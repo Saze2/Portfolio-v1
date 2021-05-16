@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FkaN0gCl6R+D4SGe+NoC6XVM5z/nvrwHZWPSl6IpFMpKN1TtbJstVhd3Y7UTF9OEtDeMC/DtA++uYfiMYQ19Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TYPHOON\\Desktop\\PortfolioWebApp\\PortfolioWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TYPHOON\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\TYPHOON\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

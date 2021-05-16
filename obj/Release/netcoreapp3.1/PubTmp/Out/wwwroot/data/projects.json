@@ -1,0 +1,53 @@
+[
+    {
+        "searchtag": "Game",
+        "name": "Fight The Slime!",
+        "logoLink": "/images/logoSlime.jpg",
+        "badges": "C#, Unity",
+        "description": "2D Sidescroller.",
+        "dateYear": "2020",
+        "dateSeason": "Winter",
+        "link": "Projects/FightTheSlime"
+    },
+    {
+        "searchtag": "Game",
+        "name": "Kitefall",
+        "logoLink": "images/logoKitefall.jpg",
+        "badges": "C#, Unity",
+        "description": "Top-Down RPG.",
+        "dateYear": "2020",
+        "dateSeason": "Summer",
+        "link": "Projects/Kitefall"
+    },
+    {
+        "searchtag": "Web",
+        "name": "Porfolio Webpage",
+        "logoLink": "images/logoPortfolio.jpg",
+        "badges": "HTML, CSS, Bootstrap, C#, Razor Pages, ASP.Net Core",
+        "description": "Simple Portfolio Webpage using a BS4 Template and Razor.",
+        "dateYear": "2020",
+        "dateSeason": "Autumn",
+        "link": "Projects/PortfolioWebpage"
+    },
+    {
+        "searchtag": "Web",
+        "name": "Reworked University Project",
+        "logoLink": "images/logoDefault.jpg",
+        "badges": "HTML, CSS, PHP, PostgreSQL",
+        "description": "Homepage to display real estates.",
+        "dateYear": "2020",
+        "dateSeason": "Autumn",
+        "link": "#"
+    },
+    {
+        "searchtag": "Game",
+        "name": "Dungeon Runner",
+        "logoLink": "images/logoDefault.jpg",
+        "badges": "C#, Unity",
+        "description": "Top-Down Maze Runner.",
+        "dateYear": "2020",
+        "dateSeason": "Autumn",
+        "link": "Projects/DungeonRunner"
+    }
+
+]

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1em"
+   height="1em"
+   viewBox="0 0 16 16"
+   class="bi bi-code"
+   fill="#ffffff"
+   version="1.1"
+   id="svg4070"
+   sodipodi:docname="websiteTabLogo.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata4076">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4074" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4072"
+     showgrid="false"
+     inkscape:zoom="26.5625"
+     inkscape:cx="8"
+     inkscape:cy="-0.026667491"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4070" />
+  <rect
+     style="fill:#0275d8;fill-opacity:1"
+     id="rect4639"
+     width="16.037647"
+     height="15.887059"
+     x="2.9580352e-09"
+     y="0.15058823"
+     ry="3.9307163" />
+  <path
+     fill-rule="evenodd"
+     d="m 5.9669412,4.1083529 a 0.5,0.5 0 0 1 0,0.708 l -3.147,3.146 3.147,3.1460001 a 0.5006316,0.5006316 0 0 1 -0.708,0.708 l -3.5,-3.5000001 a 0.5,0.5 0 0 1 0,-0.708 l 3.5,-3.5 a 0.5,0.5 0 0 1 0.708,0 z m 4.2919998,0 a 0.5,0.5 0 0 0 0,0.708 l 3.147,3.146 -3.147,3.1460001 a 0.5006316,0.5006316 0 0 0 0.708,0.708 l 3.5,-3.5000001 a 0.5,0.5 0 0 0 0,-0.708 l -3.5,-3.5 a 0.5,0.5 0 0 0 -0.708,0 z"
+     id="path4068"
+     style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+</svg>

@@ -1,0 +1,75 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!-- css -->
+<link href="~/css/hoverEffect.css" rel="stylesheet">
+<link href="~/css/backgroundImage.css" rel="stylesheet">
+
+<!-- scripts -->
+<script src="~/js/typeWriterEffect.js"></script>
+
+<!-- hero element-->
+<div>
+    <div class="jumbotron jumbotron-fluid bg-secondary">
+        <div class="container">
+            <p class="programmingFont">Saze</p>
+            <div class="css-typing"><p class="text-white class font-weight-light">Console.WriteLine("Hello World!");</p></div>
+            <p class="mt-3"><a href="https://github.com/Saze2" class="btn btn-primary btn-lg">GitHub &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- cards -->
+<div class="container">
+    <h2>Projects</h2>
+
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+        <button class="btn btn-primary" onclick="filterSelection('Web')"> Web</button>
+        <button class="btn btn-primary" onclick="filterSelection('Game')"> Game</button>
+        <button class="btn btn-primary" onclick="filterSelection('Desktop')"> Desktop</button>
+        <button class="btn btn-primary" onclick="filterSelection('Others')"> Others</button>
+        <button class="btn btn-primary active" onclick="filterSelection('all')"> Show all</button>
+    </div>
+
+    <div class="grid-container">
+        @foreach (var project in Model._projects)
+        {
+            <div class="grid-item, filterDiv @project.searchtag">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img class="card-img-top" src="@project.logoLink" alt="Logo">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @(project.name)
+                            <!-- parse and generate badges -->
+                            @{
+                                string[] badge = project.badges.Split(",");
+
+                                foreach (string b in badge)
+                                {
+                                    <span class="badge badge-primary">@b</span>
+                                }
+                            }
+                        </h5>
+                        <p class="card-text">@project.description</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">@project.dateYear @project.dateSeason</small>
+                    </div>
+                    <a href="@project.link" class="stretched-link"></a>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+
+
+
+
+

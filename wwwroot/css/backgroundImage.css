@@ -1,0 +1,59 @@
+.jumbotron {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.programmingFont {
+    font-family: "Courier";
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
