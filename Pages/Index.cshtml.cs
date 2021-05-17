@@ -39,13 +39,5 @@ namespace PortfolioWebApp.Pages
             p.dateSeason == "Autumn" ? 4:
             5);                   
         }
-
-
-
-
-        //for each project is filtername == filtercritera then do it
-        // sort after release date
-
-
     }
 }
